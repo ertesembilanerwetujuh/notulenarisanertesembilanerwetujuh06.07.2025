@@ -7,6 +7,7 @@ body {
   padding: 0;
   background: #f9f9f9;
   color: #333;
+  font-size: 14px; /* ➕ Tambahkan atau ubah ini */
 }
 
 /* ================================
