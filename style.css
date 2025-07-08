@@ -1,0 +1,259 @@
+/* ================================
+   BASE STYLE
+================================== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* ================================
+   HEADER
+================================== */
+header {
+  background: #af0000;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header h2 {
+  margin: 0.2rem 0 1rem;
+  font-weight: normal;
+}
+
+header .tanggal,
+header .lokasi {
+  font-size: 0.9rem;
+  margin: 0.2rem;
+}
+
+/* ================================
+   MAIN CONTENT
+================================== */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h3 {
+  color: #af0000;
+  border-bottom: 2px solid #af0000;
+  padding-bottom: 0.3rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* ================================
+   TABLE
+================================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+
+table th:nth-child(2),
+table td:nth-child(2) {
+  text-align: right;
+}
+
+table thead {
+  background: #eee;
+}
+
+.total {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+/* ================================
+   FOOTER
+================================== */
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+footer .ttd {
+  margin-top: 1rem;
+}
+
+/* ================================
+   PARAGRAPH JUSTIFY
+================================== */
+p {
+  text-align: justify;
+}
+
+p.intro {
+  text-align: center;
+}
+
+
+/* Tambahan untuk tabel keuangan */
+table th:nth-child(3),
+table td:nth-child(3),
+table th:nth-child(4),
+table td:nth-child(4) {
+  text-align: right;
+  white-space: nowrap;
+}
+
+table td {
+  vertical-align: top;
+}
+
+/* Format semua nominal angka rata kanan */
+.nominal {
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Styling hanya untuk tabel dengan class 'tabel-iuran' */
+.tabel-iuran {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.tabel-iuran th,
+.tabel-iuran td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center; /* default semua tengah */
+}
+
+/* Kolom NAMA (kolom ke-2) rata kiri */
+.tabel-iuran td:nth-child(2),
+.tabel-iuran th:nth-child(2) {
+  text-align: left;
+}
+
+/* Kolom AGU, TOTAL, KURANG (kolom 3, 4, 5) rata kanan */
+.tabel-iuran td:nth-child(3),
+.tabel-iuran th:nth-child(3),
+.tabel-iuran td:nth-child(4),
+.tabel-iuran th:nth-child(4),
+.tabel-iuran td:nth-child(5),
+.tabel-iuran th:nth-child(5) {
+  text-align: right;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+
+
+.jadwal-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.match {
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff000;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  font-weight: bold; /* ➕ Semua teks dalam match jadi bold */
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.team.left {
+  text-align: right;
+  padding-right: 24px;
+}
+
+.team.right {
+  text-align: left;
+  padding-left: 24px;
+}
+
+.vs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  font-size: 9px;
+  gap: 6px;
+  flex-shrink: 0;
+  font-weight: bold; /* ➕ Pastikan VS juga bold */
+}
+
+.no {
+  display: inline-block;
+  padding: 4px 10px;
+  color: #fff;
+  border-radius: 4px;
+  min-width: 10px;
+  text-align: center;
+  font-weight: bold; /* ➕ Nomor peserta tetap tebal */
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: #0074d9;
+}
+
+.judul {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+table,
+table th,
+table td {
+  font-size: 12px; /* Atau lebih kecil misalnya 11px atau 10px */
+}
