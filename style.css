@@ -186,7 +186,7 @@ body {
 
 .match {
   display: flex;
-  font-size: 10px;
+  font-size: 8px;
   justify-content: space-between;
   align-items: center;
   background: #fff000;
@@ -218,7 +218,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 90px;
-  font-size: 9px;
+  font-size: 8px;
   gap: 6px;
   flex-shrink: 0;
   font-weight: bold; /* ➕ Pastikan VS juga bold */
